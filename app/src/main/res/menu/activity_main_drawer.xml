@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fraud"
+            android:icon="@mipmap/ic_warning_black"
+            android:title="Penipuan" />
+        <item
+            android:id="@+id/nav_promotion"
+            android:icon="@mipmap/ic_shopping_basket_black"
+            android:title="Promosi" />
+    </group>
+
+    <item android:title="Tentang Aplikasi">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@mipmap/ic_mail_outline_black"
+                android:title="SMS Spam Filtering"/>
+        </menu>
+    </item>
+
+</menu>
